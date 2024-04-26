@@ -58,8 +58,8 @@ export const ContactForm = () => {
           className="InputText outline-none"
           name="message"
           id="message"
-          cols="23"
-          rows="10"
+          cols="26"
+          rows="8"
           value={message}
           onChange={handleMessage}
           required

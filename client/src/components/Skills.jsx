@@ -11,8 +11,6 @@ import firebase from './../assets/skillsImages/firebase.png';
 import git from './../assets/skillsImages/git.png';
 
 export const Skills = () => {
-  console.log(getCombinations([3, 2, 1]));
-
   const skills = [
     { src: css, name: 'css' },
     { src: javascript, name: 'Javascript' },

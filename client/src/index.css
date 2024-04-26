@@ -18,7 +18,7 @@ textarea:not(:focus):valid ~ .floating-label {
 
 .inputText {
   font-size: 14px;
-  width: 200px;
+  width: 195px;
   height: 35px;
   padding-left: 20px;
   outline: none;
