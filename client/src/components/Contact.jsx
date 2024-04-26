@@ -1,10 +1,12 @@
 import { ContactForm } from './ContactForm';
+import { Contacts } from './Contacts';
 
 export const Contact = () => {
   return (
-    <section id="contact" className="flex flex-col gap-7 pt-24">
-      <h3 className="text-teal-600 text-2xl">Contact</h3>
+    <section id="contact">
+      <h3>Contact</h3>
       <ContactForm />
+      <Contacts />
     </section>
   );
 };

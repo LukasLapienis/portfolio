@@ -18,21 +18,22 @@ textarea:not(:focus):valid ~ .floating-label {
   padding: 5px;
 }
 
-.inputText {
-  padding-left: 20px;
-  padding-bottom: 5px;
-  outline: none;
-}
-
 .floating-label {
   pointer-events: none;
   transition: 0.4s ease all;
   color: rgb(75, 74, 74);
 }
 
+h3 {
+  @apply text-teal-600 text-2xl;
+}
+main > section {
+  @apply flex flex-col gap-7 pt-24;
+}
+
 input,
 textarea {
-  @apply bg-gray-100 text-base border-2 w-80 rounded-md border-gray-400 hover:border-gray-600 focus:border-gray-600;
+  @apply bg-gray-100 text-base border-2 w-80 pb-1 pl-5 rounded-md border-gray-400 hover:border-gray-600 focus:border-gray-600;
 }
 
 input {
@@ -40,4 +41,8 @@ input {
 }
 span {
   @apply absolute bg-gray-100 text-base left-5 top-3 opacity-50;
+}
+
+form > div {
+  @apply relative;
 }
