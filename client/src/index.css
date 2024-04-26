@@ -4,6 +4,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 input:focus ~ .floating-label,
@@ -13,11 +14,11 @@ textarea:not(:focus):valid ~ .floating-label {
   top: -12px;
   bottom: 10px;
   left: 20px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .inputText {
-  font-size: 14px;
+  font-size: 16px;
   width: 195px;
   height: 35px;
   padding-left: 20px;
@@ -25,6 +26,7 @@ textarea:not(:focus):valid ~ .floating-label {
 }
 
 .floating-label {
+  font-size: 16px;
   position: absolute;
   pointer-events: none;
   left: 20px;

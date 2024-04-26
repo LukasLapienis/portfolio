@@ -55,7 +55,7 @@ export const ContactForm = () => {
       </div>
       <div className="relative">
         <textarea
-          className="InputText outline-none"
+          className="InputText outline-none w-48 pl-5"
           name="message"
           id="message"
           cols="26"
