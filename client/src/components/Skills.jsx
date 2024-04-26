@@ -1,4 +1,13 @@
 import css from './../assets/skillsImages/css.png';
+import javascript from './../assets/skillsImages/javascript.png';
+import python from './../assets/skillsImages/python.png';
+import react from './../assets/skillsImages/react.png';
+import agile from './../assets/skillsImages/agile.png';
+import node from './../assets/skillsImages/node.png';
+import mongodb from './../assets/skillsImages/mongodb.png';
+import mysql from './../assets/skillsImages/mysql.png';
+import html from './../assets/skillsImages/html.png';
+import firebase from './../assets/skillsImages/firebase.png';
 
 export const Skills = () => {
   // function getAllSubsets(array) {
@@ -63,15 +72,15 @@ export const Skills = () => {
 
   const skills = [
     { src: css, name: 'css' },
-    { src: '.src/assets/skillsImages/javascript.png', name: 'Javascript' },
-    { src: './src/assets/skillsImages/python.png', name: 'Python' },
-    { src: './src/assets/skillsImages/react.png', name: 'React' },
-    { src: './src/assets/skillsImages/agile.png', name: 'Agile' },
-    { src: './src/assets/skillsImages/node.png', name: 'Node' },
-    { src: './src/assets/skillsImages/mongodb.png', name: 'mongoDB' },
-    { src: './src/assets/skillsImages/mysql.png', name: 'MySQL' },
-    { src: './src/assets/skillsImages/html.png', name: 'html' },
-    { src: './src/assets/skillsImages/firebase.png', name: 'firebase' },
+    { src: javascript, name: 'Javascript' },
+    { src: python, name: 'Python' },
+    { src: react, name: 'React' },
+    { src: agile, name: 'Agile' },
+    { src: node, name: 'Node' },
+    { src: mongodb, name: 'mongoDB' },
+    { src: mysql, name: 'MySQL' },
+    { src: html, name: 'html' },
+    { src: firebase, name: 'firebase' },
   ];
 
   return (
