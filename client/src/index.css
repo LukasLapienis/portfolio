@@ -3,32 +3,25 @@
 @tailwind utilities;
 
 html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+  @apply scroll-smooth box-border;
 }
 
 input:focus ~ .floating-label,
-input:not(:focus):valid ~ .floating-label,
 textarea:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label,
 textarea:not(:focus):valid ~ .floating-label {
-  top: -15px;
-  left: 20px;
-  font-size: 12px;
-  opacity: 1;
-  padding: 5px;
+  @apply -top-2.5 left-5 text-xs opacity-100 pl-1 pr-1;
 }
 
-.floating-label {
-  pointer-events: none;
-  transition: 0.4s ease all;
-  color: rgb(75, 74, 74);
+form > div {
+  @apply relative;
 }
 
-h3 {
-  @apply text-teal-600 text-2xl;
-}
 main > section {
   @apply flex flex-col gap-7 pt-24;
+}
+h3 {
+  @apply text-teal-600 text-2xl;
 }
 
 input,
@@ -40,9 +33,5 @@ input {
   @apply h-14;
 }
 span {
-  @apply absolute bg-gray-100 text-base left-5 top-3 opacity-50;
-}
-
-form > div {
-  @apply relative;
+  @apply absolute bg-gray-100 text-gray-700 text-base left-5 top-3.5 opacity-50 transition-all duration-500 pointer-events-none;
 }
