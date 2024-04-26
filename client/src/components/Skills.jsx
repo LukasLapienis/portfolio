@@ -84,7 +84,7 @@ export const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="flex flex-col gap-4 ">
+    <section id="skills" className="flex flex-col gap-4 pt-20">
       <h3 className="text-teal-600 text-2xl">Skills</h3>
       <div className="flex flex-wrap gap-4 items-center justify-center">
         {skills.map((img) => {
