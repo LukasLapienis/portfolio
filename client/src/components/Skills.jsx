@@ -60,8 +60,8 @@ export const Skills = () => {
   console.log(getCombinations([3, 2, 1]));
 
   const skills = [
-    { src: './src/assets/skillsImages/css.png', name: 'css' },
-    { src: './src/assets/skillsImages/javascript.png', name: 'Javascript' },
+    { src: '/src/assets/skillsImages/css.png', name: 'css' },
+    { src: '.src/assets/skillsImages/javascript.png', name: 'Javascript' },
     { src: './src/assets/skillsImages/python.png', name: 'Python' },
     { src: './src/assets/skillsImages/react.png', name: 'React' },
     { src: './src/assets/skillsImages/agile.png', name: 'Agile' },
