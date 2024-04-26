@@ -86,18 +86,18 @@ export const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="flex flex-col gap-4 pt-20">
+    <section id="skills" className="flex flex-col gap-4 pt-24">
       <h3 className="text-teal-600 text-2xl">Skills</h3>
       <div className="flex flex-wrap gap-4 items-center justify-center">
-        {skills.map((img) => {
+        {skills.map((skill) => {
           return (
             <div
-              key={img.name}
+              key={skill.name}
               className="rounded-md duration-1000 hover:bg-gray-400 hover:text-teal-600 hover:scale-110 selection:w-20 h-24 flex flex-col items-center justify-between p-1"
             >
-              <h4>{img.name}</h4>
+              <h4>{skill.name}</h4>
               <div>
-                <img src={img.src} className="w-16 h-16"></img>
+                <img src={skill.src} className="w-16 h-16"></img>
               </div>
             </div>
           );

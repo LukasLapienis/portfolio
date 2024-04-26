@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <section id="about">
-      <h3 className="text-teal-600 text-2xl pt-20">About me</h3>
+      <h3 className="text-teal-600 text-2xl pt-24">About me</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius
         ad molestias nostrum? Voluptatibus iure facere maiores, minima, neque
