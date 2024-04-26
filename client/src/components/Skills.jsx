@@ -89,10 +89,13 @@ export const Skills = () => {
       <div className="flex flex-wrap gap-4 items-center justify-center">
         {skills.map((img) => {
           return (
-            <div className="rounded-md duration-1000 hover:bg-gray-400 hover:text-teal-600 hover:scale-110 selection:w-20 h-24 flex flex-col items-center justify-between p-1">
+            <div
+              key={img.name}
+              className="rounded-md duration-1000 hover:bg-gray-400 hover:text-teal-600 hover:scale-110 selection:w-20 h-24 flex flex-col items-center justify-between p-1"
+            >
               <h4>{img.name}</h4>
               <div>
-                <img key={img.name} src={img.src} className="w-16 h-16"></img>
+                <img src={img.src} className="w-16 h-16"></img>
               </div>
             </div>
           );
