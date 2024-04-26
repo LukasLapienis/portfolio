@@ -55,7 +55,7 @@ export const ContactForm = () => {
       </div>
       <div className="relative ">
         <textarea
-          className="InputText outline-none w-48 pt-3 pl-5 rounded-md"
+          className="InputText outline-none pt-3 pl-5 rounded-md"
           name="message"
           id="message"
           cols="26"
@@ -69,9 +69,9 @@ export const ContactForm = () => {
 
       <button
         type="submit"
-        className="border-2 rounded-md border-gray-400 w-20 hover:bg-gray-300 active:bg-gray-500"
+        className="w-36 h-12 border-2 rounded-md border-gray-400 hover:bg-gray-300 active:bg-gray-500"
       >
-        Send
+        Send Message
       </button>
     </form>
   );
