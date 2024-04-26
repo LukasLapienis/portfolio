@@ -5,7 +5,7 @@ import { Skills } from './Skills';
 
 export const Main = () => {
   return (
-    <main className="bg-gray-200 p-10 flex flex-col gap-6 top-7 pt-20">
+    <main className="bg-gray-200 p-10 flex flex-col gap-6">
       <About />
       <Skills />
       <Projects />
