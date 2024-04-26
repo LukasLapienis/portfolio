@@ -8,6 +8,7 @@ import mongodb from './../assets/skillsImages/mongodb.png';
 import mysql from './../assets/skillsImages/mysql.png';
 import html from './../assets/skillsImages/html.png';
 import firebase from './../assets/skillsImages/firebase.png';
+import git from './../assets/skillsImages/git.png';
 
 export const Skills = () => {
   // function getAllSubsets(array) {
@@ -81,6 +82,7 @@ export const Skills = () => {
     { src: mysql, name: 'MySQL' },
     { src: html, name: 'html' },
     { src: firebase, name: 'firebase' },
+    { src: git, name: 'git' },
   ];
 
   return (
