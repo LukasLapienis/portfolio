@@ -29,7 +29,7 @@ export const ContactForm = () => {
       onSubmit={handleSubmit}
       className="flex flex-col items-center justify-center w-full gap-4"
     >
-      <div className="relative">
+      <div className="relative ">
         <input
           className="inputText"
           name="name"
@@ -39,7 +39,7 @@ export const ContactForm = () => {
           onChange={handleName}
           required
         />
-        <span className="floating-label">Enter your Name *</span>
+        <span className="floating-label ">Enter your Name *</span>
       </div>
       <div className="relative">
         <input
@@ -53,9 +53,9 @@ export const ContactForm = () => {
         />
         <span className="floating-label">Enter Subject *</span>
       </div>
-      <div className="relative">
+      <div className="relative ">
         <textarea
-          className="InputText outline-none w-48 pl-5"
+          className="InputText outline-none w-48 pt-3 pl-5 rounded-md"
           name="message"
           id="message"
           cols="26"

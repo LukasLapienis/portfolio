@@ -11,17 +11,19 @@ input:focus ~ .floating-label,
 input:not(:focus):valid ~ .floating-label,
 textarea:focus ~ .floating-label,
 textarea:not(:focus):valid ~ .floating-label {
-  top: -12px;
-  bottom: 10px;
+  top: -15px;
   left: 20px;
   font-size: 12px;
+  opacity: 1;
+  padding: 5px;
 }
 
 .inputText {
   font-size: 16px;
   width: 192px;
-  height: 35px;
+  height: 50px;
   padding-left: 20px;
+  padding-bottom: 5px;
   outline: none;
 }
 
@@ -30,7 +32,17 @@ textarea:not(:focus):valid ~ .floating-label {
   position: absolute;
   pointer-events: none;
   left: 20px;
-  top: 7px;
-  transition: 0.2s ease all;
+  top: 12px;
+  transition: 0.4s ease all;
+  color: rgb(75, 74, 74);
   opacity: 0.5;
+}
+
+input,
+textarea {
+  @apply bg-gray-100 border-2 rounded-md border-gray-400 hover:border-gray-600 focus:border-gray-600;
+}
+
+span {
+  @apply bg-gray-100;
 }
