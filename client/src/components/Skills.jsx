@@ -1,3 +1,5 @@
+import css from './../assets/skillsImages/css.png';
+
 export const Skills = () => {
   // function getAllSubsets(array) {
   //   const target = 10000;
@@ -60,7 +62,7 @@ export const Skills = () => {
   console.log(getCombinations([3, 2, 1]));
 
   const skills = [
-    { src: '/src/assets/skillsImages/css.png', name: 'css' },
+    { src: css, name: 'css' },
     { src: '.src/assets/skillsImages/javascript.png', name: 'Javascript' },
     { src: './src/assets/skillsImages/python.png', name: 'Python' },
     { src: './src/assets/skillsImages/react.png', name: 'React' },
