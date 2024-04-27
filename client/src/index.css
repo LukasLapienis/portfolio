@@ -18,7 +18,7 @@ form > div {
 }
 
 main > section {
-  @apply flex flex-col gap-7 pt-24;
+  @apply flex flex-col gap-7 pt-20;
 }
 h3 {
   @apply text-teal-600 text-2xl;

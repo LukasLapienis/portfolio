@@ -39,7 +39,7 @@ export const Skills = () => {
               <div>
                 <img
                   src={skill.src}
-                  className="w-16 h-16 opacity-50 group-hover:opacity-100"
+                  className=" w-16 h-16 opacity-50 group-hover:opacity-100"
                 ></img>
               </div>
             </div>
