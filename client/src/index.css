@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 html {
-  @apply scroll-smooth box-border;
+  @apply box-border scroll-smooth;
 }
 
 input:focus ~ .floating-label,
 textarea:focus ~ .floating-label,
 input:not(:focus):valid ~ .floating-label,
 textarea:not(:focus):valid ~ .floating-label {
-  @apply -top-2.5 left-5 text-sm opacity-100 pl-1 pr-1;
+  @apply -top-2.5 left-5 pl-1 pr-1 text-sm opacity-100;
 }
 
 form > div {
@@ -21,17 +21,17 @@ main > section {
   @apply flex flex-col gap-7 pt-20;
 }
 h3 {
-  @apply text-teal-600 text-2xl;
+  @apply text-2xl text-teal-600;
 }
 
 input,
 textarea {
-  @apply bg-gray-100 text-base border-2 w-80 pb-1 pl-5 rounded-md border-gray-400 hover:border-gray-600 focus:border-gray-600;
+  @apply w-80 rounded-md border-2 border-gray-400 bg-gray-100 pb-1 pl-5 text-base hover:border-gray-600 focus:border-gray-600;
 }
 
 input {
   @apply h-14;
 }
 span {
-  @apply absolute bg-gray-100 text-gray-700 text-base left-5 top-3.5 opacity-50 transition-all duration-500 pointer-events-none;
+  @apply pointer-events-none absolute left-5 top-3.5 bg-gray-100 text-base text-gray-700 opacity-50 transition-all duration-500;
 }

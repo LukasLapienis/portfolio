@@ -12,7 +12,7 @@ export const NavBar = () => {
         return (
           <li
             key={link.name}
-            className="duration-300 hover:scale-110 text-teal-900 hover:text-teal-600"
+            className="text-teal-900 duration-300 hover:scale-110 hover:text-teal-600"
           >
             <a href={link.url}>{link.name}</a>
           </li>

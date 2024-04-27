@@ -27,7 +27,7 @@ export const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col items-center justify-center w-full gap-4"
+      className="flex w-full flex-col items-center justify-center gap-4"
     >
       <div>
         <input
@@ -69,7 +69,7 @@ export const ContactForm = () => {
 
       <button
         type="submit"
-        className="w-36 h-12 border-2 rounded-md hover:scale-110 duration-500 border-gray-400 hover:bg-gray-300 active:bg-gray-500"
+        className="h-12 w-36 rounded-md border-2 border-gray-400 duration-500 hover:scale-110 hover:bg-gray-300 active:bg-gray-500"
       >
         Send Message
       </button>

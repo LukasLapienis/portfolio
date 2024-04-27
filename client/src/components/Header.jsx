@@ -2,7 +2,7 @@ import { NavBar } from './NavBar';
 
 export const Header = () => {
   return (
-    <header className="header z-10 fixed top-0 flex justify-between items-center bg-gray-400 h-20 p-10 w-full">
+    <header className="header fixed top-0 z-10 flex h-20 w-full items-center justify-between bg-gray-400 p-10">
       <div>logo</div>
       <NavBar />
     </header>
