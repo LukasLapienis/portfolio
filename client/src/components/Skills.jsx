@@ -33,11 +33,14 @@ export const Skills = () => {
           return (
             <div
               key={skill.name}
-              className="rounded-md duration-1000 hover:bg-gray-400 hover:text-teal-600 hover:scale-110 selection:w-20 h-24 flex flex-col items-center justify-between p-1"
+              className="group rounded-md duration-1000 hover:bg-gray-400 hover:text-teal-600 hover:scale-110 selection:w-20 h-24 flex flex-col items-center justify-between p-1"
             >
               <h4>{skill.name}</h4>
               <div>
-                <img src={skill.src} className="w-16 h-16"></img>
+                <img
+                  src={skill.src}
+                  className="w-16 h-16 opacity-50 group-hover:opacity-100"
+                ></img>
               </div>
             </div>
           );
